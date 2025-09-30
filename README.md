@@ -7,7 +7,8 @@ Este repositorio adjunta todos los scripts, diagramas y backups necesarios para 
 Nuestro espacio de trabajo contiene dos carpetas, observe:
 
 - `Backups`: Aqui encuentras los backups realizados en cada base de datos.
-- `Scripts`: Aqui encuentras los scripts de sql y python, necesarios para ejecutar todo el proceso.
+- `Scripts`: Aqui encuentras los scripts de sql necesarios para ejecutar todo el proceso (Desde la base datos, hasta el Data Mart).
+- `Prueba Calidad Datos`: Aqui encuentras el script automatizado de Python que ejecuta las queries para validar la integridad y calidad de los datos.
 
 ## Manejo de dependencias
 
