@@ -1,7 +1,7 @@
 # Script para automatizar consultas de calidad de datos
 import psycopg
 
-with psycopg.connect(host="localhost", port=5432, dbname="operaciones_negocio", user="postgres", password="hola2005") as conn:
+with psycopg.connect(host="localhost", port=5432, dbname="dataMart", user="postgres", password="Manuel2309lm6") as conn:
     with conn.cursor() as cur:
         
         # Abrir archivo SQL
